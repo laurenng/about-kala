@@ -1,6 +1,7 @@
-# [Start Bootstrap - Landing Page](https://startbootstrap.com/theme/landing-page/)
+# Kala's Funding Finder Summary Page
 
-[Landing Page](https://startbootstrap.com/theme/landing-page/) is a multipurpose landing page template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+[Click here for website](https://laurenng.github.io/about-kala/)
+
 
 ## Preview
 
