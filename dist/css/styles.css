@@ -118,17 +118,13 @@ html {
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
-h2 {
-  color: black;
-  text-align: center;
-}
-
 #computer {
   width: 60%;
 }
 
 #whyFF {
   background-image: linear-gradient(to right, #D6735A,#E3A596);
+  color: white;
 }
 
 .team-single:hover .side-two{
