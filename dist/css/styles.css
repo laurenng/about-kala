@@ -56,14 +56,21 @@ html {
 
 /* Own STYLES */
 #whatDo {
-  background-image: linear-gradient(to right, #D6735A,#E3A596);
+  background-color: #f8f9fa;
+  /*background-image: linear-gradient(to right, #D6735A,#E3A596);*/
   text-align: left;
 }
 
-#whatDo p, h3 {
+.bubble-head {
+  background-color: #D6735A;
+  padding: 3em;
+  border-radius: .5em;
+}
+
+#whatDo p {
   font-size: large;
   text-align: left;
-  color: white
+  color: black
 }
 
 .separator {
@@ -77,7 +84,8 @@ html {
   content: "";
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, #D6735A,#E3A596);
+  background-color: #f8f9fa;
+  /*background-image: linear-gradient(to right, #D6735A,#E3A596);*/
   clip-path: polygon(100% 0, 0 0, 0 100%);
 }
 
@@ -86,7 +94,7 @@ html {
   content: "";
   width: 100%;
   height: 100%;
-  background-color:#f8f9fa;
+  background-image: linear-gradient(to right, #D6735A,#E3A596);
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
@@ -97,6 +105,10 @@ h2 {
 
 #computer {
   width: 60%;
+}
+
+#whyFF {
+  background-image: linear-gradient(to right, #D6735A,#E3A596);
 }
 
 /* End of OWN STYLES */
@@ -4010,7 +4022,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 1rem 3rem;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -10073,7 +10085,7 @@ h3 {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/header.jpg") no-repeat center center;
+  background: url("../assets/img/small-biz.jpeg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 4rem;
@@ -10088,7 +10100,10 @@ header.masthead .overlay {
   opacity: 0.3;
 }
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 2em;
+  text-align: left;
+  font-weight: normal;
+  color: #f7f7f7;
 }
 @media (min-width: 768px) {
   header.masthead {
@@ -10097,7 +10112,7 @@ header.masthead h1 {
     height: 45em;
   }
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 2em;
   }
 }
 
@@ -10129,7 +10144,7 @@ header.masthead h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/bg-masthead.jpg") no-repeat center center;
+  background: url("../assets/img/bottom-banner.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
