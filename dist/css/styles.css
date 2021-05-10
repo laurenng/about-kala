@@ -79,7 +79,7 @@ html {
   height: 100px;
 }
 
-.separator::before {
+.down::before {
   position: absolute;
   content: "";
   width: 100%;
@@ -89,12 +89,32 @@ html {
   clip-path: polygon(100% 0, 0 0, 0 100%);
 }
 
-.separator::after {
+.down::after {
   position: absolute;
   content: "";
   width: 100%;
   height: 100%;
   background-image: linear-gradient(to right, #D6735A,#E3A596);
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.top::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #D6735A,#E3A596);
+  /*background-image: linear-gradient(to right, #D6735A,#E3A596);*/
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.top::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #f8f9fa;
+  
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
