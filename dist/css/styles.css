@@ -48,23 +48,53 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: Roboto;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* Own STYLES */
+h2 {
+  color: #D6735A ;
+}
+
+#team a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+#logo-style {
+  width: 25%;
+  height: auto;
+}
+
 #whatDo {
   background-color: #f8f9fa;
   /*background-image: linear-gradient(to right, #D6735A,#E3A596);*/
   text-align: left;
 }
 
+.video-block {
+  margin: auto;
+  margin-bottom: 4em;
+}
+
 .bubble-head {
-  background-color: #D6735A;
-  padding: 3em;
+  background-color: white;
+  padding: 3em !important;
+  color: black;
+  text-align: left;
+  border: 3px grey solid;
   border-radius: .5em;
+}
+
+.masthead p, .masthead button {
+  font-size: 1.3em;
+}
+
+.center-head {
+  align-items: center;
 }
 
 #whatDo p {
@@ -118,12 +148,19 @@ html {
   clip-path: polygon(100% 0, 0 100%, 100% 100%);
 }
 
+.side-two p {
+  font-size: .8em;
+}
 #computer {
   width: 60%;
 }
 
 #whyFF {
   background-image: linear-gradient(to right, #D6735A,#E3A596);
+  color: white;
+}
+
+#whyFF h2{
   color: white;
 }
 
@@ -165,7 +202,7 @@ html {
 }
 
 .side-one .card, .side-two .card {
-  min-height: 312px;
+  min-height: 22em;
 }
 /* End of OWN STYLES */
 
@@ -2796,25 +2833,27 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #007bff;
-  border-color: #007bff;
+  
+  color: #fff;
+  background-color: #0A7088;
+  border-color: #0A7088;
 }
 .btn-outline-primary:hover {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: #0A7088;
+  border-color: #0A7088;
+  background-color: white;
 }
 .btn-outline-primary:focus, .btn-outline-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #007bff;
+  color: #0A7088;
   background-color: transparent;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #0A7088;
+  border-color: #0A7088;
 }
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
@@ -4381,7 +4420,7 @@ input[type=button].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: #0A7088;
 }
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
@@ -5704,7 +5743,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9919,7 +9958,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #007bff !important;
+  color: #0A7088 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10140,7 +10179,6 @@ h3 {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
   background: url("../assets/img/small-biz.jpeg") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
@@ -10148,7 +10186,6 @@ header.masthead {
 }
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
   height: 100%;
   width: 100%;
   top: 0;
@@ -10186,8 +10223,8 @@ header.masthead h1 {
 }
 
 .testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 .testimonials .testimonial-item {
   max-width: 18rem;
