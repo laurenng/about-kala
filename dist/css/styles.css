@@ -156,8 +156,8 @@ h2 {
   font-size: .8em;
 }
 #computer {
-  height: 30em;
-  margin-top: -50px;
+  height: 40em;
+  margin-top: -70px;
 }
 
 #whyFF {
@@ -218,6 +218,10 @@ h2 {
 .extra-stakeholders h5{
   font-size: 1.2em;
   text-align: center;
+}
+
+footer a {
+  color:#0A7088
 }
 /* End of OWN STYLES */
 
