@@ -54,6 +54,10 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+strong {
+  color:#0A7088
+}
+
 /* Own STYLES */
 h2 {
   color: #D6735A ;
@@ -592,7 +596,9 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 3px solid grey;
+  width: 80%;
+  margin-left: 10%;
 }
 
 small,
@@ -10243,7 +10249,7 @@ header.masthead h1 {
 
 .testimonials {
   padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: .5rem;
 }
 .testimonials .testimonial-item {
   max-width: 18rem;
