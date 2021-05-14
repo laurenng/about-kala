@@ -90,7 +90,7 @@ h2 {
 }
 
 .masthead p, .masthead button {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .center-head {
@@ -101,6 +101,10 @@ h2 {
   font-size: large;
   text-align: left;
   color: black
+}
+
+#whatDo h2 {
+  text-align: left;
 }
 
 .separator {
@@ -152,7 +156,8 @@ h2 {
   font-size: .8em;
 }
 #computer {
-  width: 60%;
+  height: 30em;
+  margin-top: -50px;
 }
 
 #whyFF {
@@ -203,6 +208,16 @@ h2 {
 
 .side-one .card, .side-two .card {
   min-height: 22em;
+}
+
+.extra-stakeholders {
+  width: 80%;
+  margin: auto;
+}
+
+.extra-stakeholders h5{
+  font-size: 1.2em;
+  text-align: center;
 }
 /* End of OWN STYLES */
 
