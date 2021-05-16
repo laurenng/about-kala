@@ -8122,8 +8122,8 @@ button.bg-dark:focus {
 }
 
 .small-img {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
 }
 
 @media (min-width: 576px) {
