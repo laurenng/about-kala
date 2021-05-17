@@ -4148,7 +4148,7 @@ input[type=button].btn-block {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between !important;
+  justify-content: center !important;
   padding: 1rem 1rem;
 }
 .navbar .container,
