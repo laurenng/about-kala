@@ -30,35 +30,66 @@ Asset Name | Links
 -------------------|-------------------
 Funding Finder | [Github Repo](https://github.com/laurenng/Kala-Resilient-Small-Business)
 Funding Finder API | [Github Repo](https://github.com/kelsonflint/rsbAPI)
-Commerce Content Management System | [Github Repo](https://addlinklater)
-Front End Diagram | [PDF](https://addlinklater)
+Commerce Content Management System | [Github Repo](https://github.com/kelsonflint/rsbCommercePortal)
+Front End Diagram | [PDF](https://drive.google.com/file/d/13jCrhQyt1GhTzryZtyrBmBNIYHchC9CF/view?usp=sharing)
 Back End Diagram | [PDF](https://addlinklater)
-Code Styling Guidelines | [PDF](https://addlinklater)
+Code Styling Guidelines | [PDF](https://airbnb.io/javascript/react/)
 
 ### Useful References
 Asset Name | Links
 -------------------|-------------------
-Assorted Project Materials | [Google Drive](https://addlinklater)
-Contacts Sheet | [PDF](https://addlinklater)
-Design Archive | [Figma](https://addlinklater)
-Project Notes | [PDF](https://addlinklater)
-Problem Context Research | [PDF Folder](https://addlinklater)
-User Research | [PDF Folder](https://addlinklater)
-Cost Analysis & AWS Hosting Architecture | [PDF](https://addlinklater)
-Branding & Design Guidelines Reference Book | [Slides](https://addlinklater)
+Assorted Project Materials | [Google Drive](https://drive.google.com/drive/folders/1WWqiFswhnRUtzVISSQB4AmkxQtvRp9J5?usp=sharing)
+Contacts Sheet | [Google Doc](https://docs.google.com/document/d/1mfG3p6qLAJpOfs7AgEJ3Lcjn00RxmbU6DtsXm9sQmzE/edit?usp=sharing)
+Website Prototypes & Wireframes | [Figma](https://www.figma.com/file/2J2k7Jxc90jZH8ndi0ZIKo/kala-Wireframes?node-id=0%3A1)
+Problem Context Research | [Folder](https://drive.google.com/drive/folders/1qDCsFTKwaYvcqBwzdajNHw8qshxRCeFz?usp=sharing)
+User Research | [Folder](https://drive.google.com/drive/folders/1fb6A-0X_10IZSfI1q1zILfkYQosDiPT6?usp=sharing)
+Cost Analysis & AWS Hosting Architecture | [Slides](https://docs.google.com/presentation/d/1OqSIfj7pWVKsv18hjOAFLhhW2VmnPr-GsPCBlK4Q3fM/edit?usp=sharing)
+
 
 ### Presentation Materials
 Asset Name | Links
 -------------------|-------------------
-Final Presentation | [Video](https://addlinklater)
-Final Presentation | [Slides](https://addlinklater)
-MVP Presentation | [Slides](https://addlinklater)
-Project Summary | [Website](https://addlinklater)
-Project Poster | [PDF](https://drive.google.com/file/d/16BmWhGWP1co51RxIV4GaRi6MB9y1y0f5/view?usp=sharing)
+Final Presentation | [Video](https://youtu.be/IopUevw1WAo)
+Final Presentation | [Slides](https://docs.google.com/presentation/d/1AQfUeK-AQ1aGYKWI4Z5g0efkkS6swOlAKysKJwTEMSg/edit?usp=sharing)
+MVP Presentation | [Slides](https://docs.google.com/presentation/d/1CYb8Fmd9vHT6os6ibxAA-c_6UbzO9XVCaV9ShrfA9Co/edit?usp=sharing)
+Project Summary | [Website](https://laurenng.github.io/about-kala/dist/index.html)
+Project Poster | [PDF](https://drive.google.com/file/d/1-VMgGNAuQHeKHsXGmUQ5sjfbMC4_Wibs/view?usp=sharing)
 
 ---
 
-## Features & Ideas We Didn't Have Enough Time For
+## Design, Code, and Research Summaries
 
-As with any project, time and resources are limited, therefore meaning we had many ideas we couldn't fit into our project. We have aggregated them here in the hopes that they will be implemented in the future or be used as something the team this project is being handed off to can reference for further ideation.
-[Features Kala Didn't Have Time For Presentation](https://app.pitch.com/app/presentation/c0de29c8-c84a-4a9e-8eb9-279561457e6d/5394b914-3b77-48a0-a559-ef21dce4b08a)
+### Design
+
+See the Design Summary section of [this presentation](https://app.pitch.com/app/presentation/c0de29c8-c84a-4a9e-8eb9-279561457e6d/5394b914-3b77-48a0-a559-ef21dce4b08a) for this information. This guide also includes style guidelines, justification for our designs, and features that were not able to be fully developed.
+
+### Code
+
+#### Front-End
+
+The front end code is developed using a react-typescript framework. We chose React because it is modular and scalable. In combination with typescript, it also makes it the perfect environment for collaboration. Typescript, which is basically Javascript with enforced types, ensures that we are creating variables and parameters with the right intentions across all developers.
+
+For our UI-components, we decided to use a component library called [Bulma](https://bulma.io/). This library helps keep our style and components consistent across the entire application with minimal styling and up keepings. This component library also provides great templates and structures for both mobile and desktop views.
+
+The structure of the project is grouped by features and broad categories. We have a folder for each major feature (ie: library, searchPage, questionnaire, etc) as well as general groupings of (redux, assets, etc). Descriptions and usage for each page is described in the comments at the top of the page.
+
+#### Back-End
+
+### Research
+
+From our initial research we validated the claims of our sponsor regarding the struggles small businesses were facing, especially those owned by minorities, in the wake of the COVID-19 pandemic.
+
+From reviewing literature we learned of the astonishing number of businesses that were forced to close permanently and how many were barely keeping their heads above water.
+
+Through this review we were able to identify major issues that created the daunting problem we were challenged to solve.
+- There is a general lack of resources for small businesses - particularly those aimed at aiding minority owned businesses. Whether it was access to funding, financial literacy, or general aid, these resources were scattered about the Internet and not made accessible.
+- Government distrust not only makes small business owners trepidatious about grant/loans but historic and systemic issues also discourage them from even applying to begin with.
+- The application process for funding opportunities is convoluted and contains jargon that requires a certain level of financial literacy. Such level of literacy small business owners often lack whether it be because of language barriers or lack of formal financial/business education. This creates a high barrier to entry when applied to the funding process for these business owners.
+
+From our research we concluded that Funding Finder needed to help bridge that gap between small business owners and the resources they need to survive and thrive as a business.
+
+**We chose to focus on Tribal small businesses because we wanted to prioritize the needs of a group of people that is often overlooked.** Ernie, the Tribal Liaison at the Washington State Department of Commerce, has also been very vocal about his excitement about this project, so we wanted to take advantage of his ability to connect us to users. Our TA, Tessa, is also a member of the Tulalip tribe, so we knew if we chose to focus on Tribal small businesses we could get quick feedback and input from someone who is closely related to our target user group.
+
+ This lead to us focusing on creating features such as the Financial Literacy Library where users can browse curated resources, and the Funding & Assistance Matching Form that allows users to find the funding opportunities and technical assistance providers best suited for their business.
+
+---
