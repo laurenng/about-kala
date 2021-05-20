@@ -32,7 +32,7 @@ Funding Finder | [Github Repo](https://github.com/laurenng/Kala-Resilient-Small-
 Funding Finder API | [Github Repo](https://github.com/kelsonflint/rsbAPI)
 Commerce Content Management System | [Github Repo](https://github.com/kelsonflint/rsbCommercePortal)
 Front End Diagram | [PDF](https://drive.google.com/file/d/13jCrhQyt1GhTzryZtyrBmBNIYHchC9CF/view?usp=sharing)
-Back End Diagram | [PDF](https://addlinklater)
+Back End Diagram | [PNG](https://drive.google.com/file/d/1bMYJBAlAsX9n40OyYAnj22SLUT0VFB3M/view?usp=sharing)
 Code Styling Guidelines | [PDF](https://airbnb.io/javascript/react/)
 
 ### Useful References
@@ -74,6 +74,12 @@ For our UI-components, we decided to use a component library called [Bulma](http
 The structure of the project is grouped by features and broad categories. We have a folder for each major feature (ie: library, searchPage, questionnaire, etc) as well as general groupings of (redux, assets, etc). Descriptions and usage for each page is described in the comments at the top of the page.
 
 #### Back-End
+
+The API has been built using Python's Flask framework. This has allowed for easy scalability and simplified requests. The application has been deployed to Amazon's API Gateway and utilizes AWS Lambda to handle requests. The deployment to AWS is handled by the [Zappa Package](https://pythonforundergradengineers.com/deploy-serverless-web-app-aws-lambda-zappa.html). Through this implementation, we can meet our variable demand without having to rely on servers. This allows for little to no-cost management of our application.
+
+The API manages Funding Finder's user accounts/businesses, funding opportunities, assistance organizations, and announcements.
+
+Funding Finder website, API, and Commerece Content Management System are all host via AWS - see Useful References: Cost Analysis & AWS Hosting Architecture for more information about the cloud infrastructure.
 
 ### Research
 
