@@ -13,7 +13,7 @@ Said platform consists the following:
 
 We made Funding Finder with a focus on supporting Tribal and Native American owned businesses first with hopes to expand the target demographic after our involvement.
 
-To learn more about Team kala and our story click this link: [Website](https://addlinklater)
+To learn more about Team kala and our story click this link: [iSchool Article](https://ischool.uw.edu/news/2021/05/informatics-team-helps-state-keep-small-businesses-afloat)
 
 ---
 
