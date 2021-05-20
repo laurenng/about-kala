@@ -93,3 +93,14 @@ From our research we concluded that Funding Finder needed to help bridge that ga
  This lead to us focusing on creating features such as the Financial Literacy Library where users can browse curated resources, and the Funding & Assistance Matching Form that allows users to find the funding opportunities and technical assistance providers best suited for their business.
 
 ---
+
+## Next Steps
+
+We suggest that the next group that takes over this does more research to ensure our product is meeting user needs. This research would also be useful in figuring out what features need to be prioritized in terms of development.
+
+Depending on findings from that research, I think these would also be good to prioritize in further development:
+- Increase language accessibility by adding hard-coded translations
+- Make the matching form more accessible to people with less financial literacy by adding tooltips and definitions for certain terms
+- Improving overall usability and design
+
+Please view the “Future Features” section of the Design Summary Guide for more of our thoughts on further development.
