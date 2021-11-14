@@ -1,6 +1,8 @@
 # Kala's Funding Finder Summary Page
 
-[Click here for website](https://laurenng.github.io/about-kala/)
+https://laurenng.github.io/about-kala/dist/index.html
+
+[Click here for website](https://laurenng.github.io/about-kala/dist/index.html)
 
 [![Landing Page Preview](https://assets.startbootstrap.com/img/screenshots/themes/landing-page.png)](https://laurenng.github.io/about-kala/)
 
